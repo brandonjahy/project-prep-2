@@ -9,6 +9,7 @@ header {
     url('http://getwallpapers.com/wallpaper/full/e/d/e/194132.jpg') center center no-repeat;
     background-size: cover;
     position: relative;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .navbar {
@@ -39,3 +40,27 @@ header {
     color: white;
     text-decoration: none;
 }
+
+.word-intro h1{
+    font-size: 6rem;
+    top: 25%;
+    left: 15%;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.word-intro h1 .word1{
+    font-size: 6rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* .word-intro {
+    height: 500px;
+    width: 800px;
+    left: 21%;
+    background: rgba(114, 112, 112, .3);
+    position: absolute;
+    display: grid;
+} */
+
