@@ -41,18 +41,65 @@ header {
     text-decoration: none;
 }
 
-.word-intro h1{
+.word-intro{
     font-size: 6rem;
-    top: 25%;
+    top: 22%;
     left: 15%;
-    position: absolute;
-    text-transform: uppercase;
+    height: 350px;
 }
 
-.word-intro h1 .word1{
+.word-intro .wordhead{
+    text-transform: uppercase;
+    left: 15%;
+    top: 30%;
+    color: #7C7F83;
+    position: absolute;
+}
+
+.word-intro .wordhead1{
+    text-transform: uppercase;
+    left: 39%;
+    top: 30%;
+    color: #7C7F83;
+    position: absolute;
+}
+
+.word-intro  .word1{
     font-size: 6rem;
+    left: 26%;
+    top: 20%;
+    position: absolute;
     color: white;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+.word-intro  .word2{
+    font-size: 6rem;
+    left: 45%;
+    top: 40%;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text-block {
+    color: #7C7F83;
+    width: 500px;
+    padding-top: 20px;
+    font-size: 18px;
+    left: 55%;
+    letter-spacing: 3px;
+    position: absolute;
+}
+
+.ticketlink {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 200px;
+    left: 55%;
 }
 
 /* .word-intro {
